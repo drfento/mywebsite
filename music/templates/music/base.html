@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- add titelcode -->
-    <title>{% block htm1_title %}Operations{% endblock%}</title>
+    <!-- add title code -->
+    <title>{% block htm1_title %}NSI Portal{% endblock%}</title>
      <!-- Loads the path to static files-->
-    {% load staticfiles %}
+    {% load static %}
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <!-- css style sheet  recach=Shift+F5-->
     <link rel="stylesheet" type ="text/css" href="{% static 'music/style.css' %}" />
     <!-- jquery -->
@@ -31,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{% url 'music:index' %}">Caxton Associates</a>
+                <a class="navbar-brand" href="{% url 'music:index' %}">Northside Imports</a>
             </div>
 
             <!-- Items -->
